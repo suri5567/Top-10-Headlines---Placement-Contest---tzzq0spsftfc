@@ -1,6 +1,5 @@
+import "./styles.css";
 import React, { useState, useEffect } from 'react'
-
-import '../styles/App.css';
 
 const App = () => {
   const [category, setCategory] = useState("general");
@@ -57,4 +56,5 @@ const App = () => {
     </div>
   )
 }
-export default App. 
+
+export default App;
